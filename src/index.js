@@ -23,4 +23,3 @@ const jsx = (
 
 ReactDOM.createRoot(document.getElementById("root")).render(jsx);
 
-console.log("React",React.version);
