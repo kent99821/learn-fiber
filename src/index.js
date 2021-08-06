@@ -1,5 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
+import ReactDOM from './kreact/react-dom';
 
 
 import "./index.css"
@@ -14,8 +15,8 @@ function FunctionComponent(props){
 
 const jsx = (
   <div className="border">
-    <h1>全栈</h1>
-    <a href="https://www.kaikeba.com">KKB</a>
+    <h1>Fiber</h1>
+    <a href="https://react.docschina.org/">React</a>
     <FunctionComponent name="函数" />
 
   </div>
