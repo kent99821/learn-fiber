@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#root {
+  padding: 10px;
+}
+
+.border {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px red;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.pink {
+  color: pink;
+}

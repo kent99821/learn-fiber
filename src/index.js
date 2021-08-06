@@ -1,17 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+import "./index.css"
+
+function FunctionComponent(props){
+  return (
+    <div className="border">
+      <p>{props.name}</p>
+    </div>
+  );
+}
+
+const jsx = (
+  <div className="border">
+    <h1>全栈</h1>
+    <a href="https://www.kaikeba.com">KKB</a>
+    <FunctionComponent name="函数" />
+
+  </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.createRoot(document.getElementById("root")).render(jsx);
+
+console.log("React",React.version);
